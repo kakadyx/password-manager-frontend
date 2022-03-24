@@ -2,7 +2,7 @@
 	*{
 		font-family: 'Roboto Mono', monospace;
 		line-height: 1;
-
+		// transition: .3s;
 	}
     h1{
         font-style: normal;
@@ -31,4 +31,7 @@
 		font-weight: 400;
 		color: var(--text-color);
 	}
+
+
+
 }

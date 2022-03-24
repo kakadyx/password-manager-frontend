@@ -14,12 +14,12 @@ export default {
 <style lang="scss" scoped>
 .main-structure {
 	display:flex;
-	height: 100%;
+	align-content: stretch;
 	div:first-child{
-		width: 25%;
+		width: 20%;
 	}
 	div:last-child{
-		width: 75%;
+		width: 80%;
 	}
 }
 </style>

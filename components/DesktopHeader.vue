@@ -21,18 +21,17 @@ export default {
 <style lang="scss" scoped>
 .header{
 	height: var(--header-height);
-	border-bottom: 2px solid gray;
-
+	background: rgb(241, 240, 240);
 	display:flex;
 	align-items:center;
 	.header__logo{
 		justify-self: flex-start;
-		width: 25%;
+		width: 20%;
 		padding-left: 20px;
 	}
 	.header__search{
 		justify-self:flex-end;
-		width: 50%;
+		width: 55%;
 	}
 	.header__account{
 		width: 25%;
