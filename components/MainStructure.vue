@@ -15,10 +15,10 @@ export default {
 .main-structure {
 	display:flex;
 	align-content: stretch;
-	div:first-child{
+	&>div:first-child{
 		width: 20%;
 	}
-	div:last-child{
+	&>div:last-child{
 		width: 80%;
 	}
 }
