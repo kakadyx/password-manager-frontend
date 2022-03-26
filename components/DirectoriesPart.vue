@@ -41,7 +41,6 @@ export default {
 .directories {
 	background: rgb(212, 206, 206);
 	position: relative;
-	max-height: calc(100vh - var(--header-height))
 }
 
 .add-button {

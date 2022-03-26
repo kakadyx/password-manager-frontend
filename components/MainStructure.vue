@@ -15,6 +15,8 @@ export default {
 .main-structure {
 	display:flex;
 	align-content: stretch;
+	max-height: calc(100vh - var(--header-height));
+
 	&>div:first-child{
 		width: 20%;
 	}
