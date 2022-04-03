@@ -7,7 +7,12 @@
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  mounted () {
+    this.$api.user.getUsers().then((res) => {
+      console.log(res)
+    })
+  }
 }
 </script>
 <style lang="scss" scoped>
