@@ -20,10 +20,6 @@ class Pass extends Api {
   postPass (params) {
     return this.post('', params)
   }
-
-  getAll (params) {
-    return this.get('/all', params)
-  }
 }
 
 export default Pass

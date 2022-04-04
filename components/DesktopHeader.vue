@@ -12,7 +12,7 @@
 export default {
   data () {
     return {
-      key: 1
+      key: 2
     }
   }
 }
