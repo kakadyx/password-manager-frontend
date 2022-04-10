@@ -2,7 +2,7 @@ import Api from './Api'
 
 class Pass extends Api {
   constructor (_axios) {
-    super(_axios, '/pass')
+    super(_axios, '/passwords')
   }
 
   getPasses (params) {

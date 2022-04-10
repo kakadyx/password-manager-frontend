@@ -9,7 +9,7 @@
 export default {
   name: 'IndexPage',
   mounted () {
-    this.$api.user.getUsers().then((res) => {
+    this.$api.pass.getPasses().then((res) => {
       console.log(res)
     })
   }
